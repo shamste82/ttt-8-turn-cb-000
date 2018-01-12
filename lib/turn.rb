@@ -31,7 +31,6 @@ def valid_move(board, index)
   if index < 9 and index >= 0
     if position_taken(board, index)
       return true
-  else
-    return false
   end
+  return false
 end
