@@ -46,7 +46,7 @@ def turn(board)
   input = gets
   if input_to_index(input)
     move(board, index)
-    break
+    return
   end
   turn(board)
 end
