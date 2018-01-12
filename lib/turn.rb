@@ -13,7 +13,7 @@ def input_to_index(input):
     user_input = user_input - 1
     return user_input
   else:
-    return - 1 
+    return - 1
 end
 
 def position_taken(board, index):
