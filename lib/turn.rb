@@ -18,7 +18,7 @@ def input_to_index(input)
 end
 
 def position_taken(board, index)
-  case board[index]:
+  case board[index]
   when "X"
     return false
   when "O"
