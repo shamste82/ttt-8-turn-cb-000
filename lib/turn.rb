@@ -17,7 +17,7 @@ def input_to_index(input)
   end
 end
 
-def position_taken(board, index)
+def position_taken?(board, index)
   case board[index]
   when "X"
     return false
