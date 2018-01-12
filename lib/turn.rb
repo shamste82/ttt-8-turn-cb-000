@@ -1,4 +1,4 @@
-def display_board(board):
+def display_board(board)
   puts "-----------"
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -7,7 +7,7 @@ def display_board(board):
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(input):
+def input_to_index(input)
   user_input = Integer(input) rescue false
   if user_input
     user_input = user_input - 1
@@ -17,7 +17,7 @@ def input_to_index(input):
   end
 end
 
-def position_taken(board, index):
+def position_taken(board, index)
   case board[index]:
   when "X"
     return false
@@ -28,7 +28,7 @@ def position_taken(board, index):
   end
 end
 
-def valid_move(board, index):
+def valid_move(board, index)
   if index < 9 and index >= 0
     if position_taken(board, index)
       return true
