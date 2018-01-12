@@ -14,6 +14,7 @@ def input_to_index(input):
     return user_input
   else
     return - 1
+  end
 end
 
 def position_taken(board, index):
@@ -32,4 +33,5 @@ def valid_move(board, index)
       return true
   else
     return false
+  end
 end
