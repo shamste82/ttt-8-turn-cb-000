@@ -9,10 +9,10 @@ end
 
 def input_to_index(input):
   user_input = Integer(input) rescue false
-  if user_input:
+  if user_input
     user_input = user_input - 1
     return user_input
-  else:
+  else
     return - 1
 end
 
@@ -27,9 +27,9 @@ def position_taken(board, index):
 end
 
 def valid_move(board, index)
-  if index < 9 and index >= 0:
-    if position_taken(board, index):
+  if index < 9 and index >= 0
+    if position_taken(board, index)
       return true
-  else:
+  else
     return false
 end
