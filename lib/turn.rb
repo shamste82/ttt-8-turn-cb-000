@@ -23,7 +23,7 @@ def position_taken(board, index):
     return false
   when "O"
     return false
-  else:
+  else
     return true
   end
 end
