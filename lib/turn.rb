@@ -8,7 +8,7 @@ def display_board(board)
 end
 
 def input_to_index(input):
-  user_input=Integer(input) rescue false
+  user_input = Integer(input) rescue false
   if user_input:
     user_input = user_input - 1
     return user_input
